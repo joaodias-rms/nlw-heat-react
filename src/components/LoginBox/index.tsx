@@ -7,9 +7,8 @@ import styles from "./styles.module.scss";
 
 
 export function LoginBox() {
-  const { signInUrl, user } = useContext(AuthContext)
+  const { signInUrl } = useContext(AuthContext)
 
-  console.log(user);
   
 
   return (
